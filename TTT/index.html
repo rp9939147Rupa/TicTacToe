@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<style>body{
+background-image: url("bgg.jpg");
+}</style>    <div id="login" class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="game" class="game-container">
+        <div id="board" class="board"></div>
+        <div id="result" class="result"></div>
+        <button onclick="resetGame()">Reset Game</button>
+    </div>
+
+    <script src="scripts/tictactoe.js"></script>
+</body>
+</html>
